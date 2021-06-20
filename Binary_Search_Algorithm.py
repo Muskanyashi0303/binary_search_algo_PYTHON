@@ -26,7 +26,7 @@ arr_i = Arr.split(' ')
 arr = []
 for i in arr_i:
     arr.append(int(i))
-key = int(input('Enter the number to find: '))
+key = int(input('Enter the value of key to be found: '))
 arr.sort()
 print('Sorted Array:')
 print(arr)
